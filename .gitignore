@@ -1,0 +1,43 @@
+oauth2-proxy
+vendor
+dist
+release
+.godeps
+*.exe
+.env
+.bundle
+c.out
+
+# Go.gitignore
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+.idea/
+.vscode/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# Editor swap/temp files
+.*.swp
+
+# Dockerfile.dev is ignored by both git and docker
+# for faster development cycle of docker build
+# cp Dockerfile Dockerfile.dev
+# vi Dockerfile.dev
+# docker build -f Dockerfile.dev .
+Dockerfile.dev

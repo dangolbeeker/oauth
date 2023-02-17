@@ -1,0 +1,6 @@
+Dockerfile.dev
+Dockerfile
+docs
+vendor
+.git
+oauth2-proxy
